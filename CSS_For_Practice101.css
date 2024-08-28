@@ -1,0 +1,63 @@
+button {
+    height: 70px;
+    width: 75px;
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: rgb(197, 196, 196);
+}
+
+input {
+    text-align: right;
+    padding: 10px 10px;
+    border-width: 5px;
+    border-color: rgb(19, 18, 18);
+    height: 70px;
+    width: 282px;
+    border-radius: 10px;
+    font-size: 45px;
+    margin-bottom: 10px;
+    pointer-events: none; /* CSS pointer events property, to avoid user from clicking inside the text box */ 
+}
+
+.rows {
+    /* margin-top: 10px; */
+    margin-bottom: 5px;
+    ;
+}
+
+/* .four{
+    color: none;
+} */
+
+#zero {
+    width: 154px;
+}
+
+#C {
+  background-color: orange;  
+}
+
+.calc-body {
+    
+    margin: auto;
+    padding: 10px;
+    width: 315px; /* with a fixed width in px the element doesn't stretch out */
+
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgb(41, 38, 38);
+    display: inline-flexbox; /*This line works in conjunction  */
+    margin-top: 100px;      /*with this one */
+    /* margin-bottom: 100px; */
+    /* padding-top: 10px; <---I tried to do it this way first
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px; */
+    
+}
+
+.pressed {
+    box-shadow: 0 2px 2px 0 #DBEDF3;
+    opacity: 0.75;
+  }
+
